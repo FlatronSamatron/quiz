@@ -1,0 +1,97 @@
+body {
+  font-family: 'Indie Flower', cursive;
+  background-color: #f9fffb; 
+}
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #91e0b3;
+    border-radius: 4px;
+    border:1px solid #2ecc71;
+}
+
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: #91e0b3;
+    color:#3498db;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    font-family: 'Indie Flower', cursive;
+}
+div.tab button:last-child{
+  float:right;
+}
+div.tab button a{
+    color:#3498db;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #7bd8a1;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #57cc87;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 4px;
+    border:1px solid #2ecc71;
+    border-top: none;
+    background-color: #bfffda; 
+}
+
+a.start{
+  display:inline-block;
+  color:#3498db;
+  background:#91e0b3;
+  border:1px solid #2ecc71;
+  padding:6px 13px ;
+  border-radius: 4px;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+#charging{
+  position: absolute;
+  top:15px;
+  right:20px;
+  font-size:30px;
+  color:#91e0b3;
+}
+b{
+  color:red;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
